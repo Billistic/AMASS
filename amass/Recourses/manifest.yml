@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: helloworld-html-${AMASS_test}
+  name: test-html
+  memory: 64M
+  stack: cflinuxfs2

@@ -1,0 +1,53 @@
+<!DOCTYPE html?>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="reliable car security for a safe and comfortable lifestyle">
+		<meta name="keywords" content="car, security, arduino, CIT, DCOMM, Louise Walshe, Conor Twomey, Ryan Meany, Joshua Nuttall">
+		<meta name="author" content="Joshua Nuttall - R00128796">
+		<title>AMASS | Services</title>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1>Amass Security</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li class="current"><a href="services.html">Track</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="track">
+			<div class="container">
+				<h1>Track by account</h1>
+				<form action="process.php">
+					<input type="email" placeholder="Enter Email..."> 
+					<button type="submit" class="track_button">Track</button>
+				</form>
+			</div>
+		</section>
+		
+		<section id="main">
+			<div id="map_canvas"></div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+			<!-- JS -->
+			<script type="text/javascript" src="mapit/jquery.mapit.js"></script>
+			<script src="mapit/initializers.js"></script>
+			<!-- JS ends -->
+		</section>
+		
+		<footer>
+			<p>Amass Security, Copyright &copy; 2017</p>
+		</footer>
+		
+	</body>
+</html>
